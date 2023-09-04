@@ -1,0 +1,356 @@
+
+p , span{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+.bg-gray{
+    background-color: #f7f7f7;
+}
+.container{
+    width: 75% !important;
+}
+.home{
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.navbar .nav-item:hover{
+  border-bottom: #fff solid 3px;
+}
+.navbar .nav-item.active, .home-link{
+    border-bottom: #fff solid 3px;
+  }
+
+
+
+.bg-overlay{
+    background-color: rgba(0, 0, 0, 0.633);
+}
+.about-img{
+    position: relative;
+    width: 100%;
+}
+.about-img::before{
+    content: "";
+    width: 80%;
+    height: 80%;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom:-8%;
+    left: -8%;
+    z-index: -1;
+}
+.home h2{
+    font-size: 50px;
+}
+.home p{
+    font-size: 65px;  
+    padding: 20px;
+    color: #fff;
+    font-weight: 100;
+}
+.home p::after{
+    content: "|";
+    animation: typing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.nav-item button{
+    background-color:#fff !important;
+    color: #000 !important;
+    border-radius: 0% !important; 
+    font-weight: 700;
+}
+.nav-pills .nav-link.active{
+    border-bottom: #000 solid 3px !important;
+}
+.social-icon{
+    width: 25px;
+    height: 25px;
+}
+.w-10{
+    width: 10%;
+}
+.btn-1:hover{
+    background-color: #fff;
+    color: #000;
+}
+.btn{
+    transition: all 1s !important;
+}
+.icon 
+{
+    width: 20px;
+    height: 20px;
+    background: #f4f4f4;
+    transition: all 0.5s;
+}
+.icon2{
+    width: 30px;
+    height: 30px;
+}
+.icon2:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: #000 solid 2px;
+}
+.p-6{
+padding: 40px;
+}
+.p-7{
+    padding: 30px;
+    }
+.header{
+position: relative;
+z-index: 99999 !important;
+font-size: 50px;
+font-weight: 900;
+}
+.header::before{
+    content: "";
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+}
+.border-shadow{
+    box-shadow: 0px 5px 8px 3px #04040409;
+}
+#services .item:hover .icon , #contact .icon:hover{
+background: #000;
+color: #fff;
+}
+
+.content{
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 95%;
+    position: absolute;
+    width: 95%;
+    top: 50px;
+    opacity: 0;
+    transition: all 0.5s;
+    
+}
+#works .item{
+    overflow: hidden;
+}
+#works .item:hover .content{
+   opacity: 1;
+   top: 8px;
+}
+#clients p{
+    font-weight: 500;
+}
+.mySlide{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    
+}
+.work-img{
+    transition: transform 1s;
+}
+.work-img:hover{
+    transform: scale(1.2);
+}
+
+.carousel-item{
+    transition: transform 1s ease, opacity .5s ease-out !important;
+}
+@keyframes typing{
+    0%{
+        content: "L|"; 
+    }
+    2%{
+        content: "La|"; 
+    }4%{
+        content: "Lar|"; 
+    }6%{
+        content: "Larr|"; 
+    }8%{
+        content: "Larry|"; 
+    }10%{
+        content: "Larry |"; 
+    }
+    11%{
+        content: "Larry D|"; 
+    }
+    12%{
+        content: "Larry Da|"; 
+    }14%{
+        content: "Larry Dan|"; 
+    }16%{
+        content: "Larry Dani|"; 
+    }18%{
+        content: "Larry Danie|"; 
+    }20%{
+        content: "Larry Daniel|"; 
+    }21%{
+        content: "Larry Daniels|"; 
+    }
+    22%{
+        content: "Larry Daniel|"; 
+    }24%{
+        content: "Larry Danie|"; 
+    }26%{
+        content: "Larry Dani|"; 
+    }28%{
+        content: "Larry Dan|"; 
+    }
+    30%{
+        content: "Larry Da|"; 
+    }31%{
+        content: "Larry D|"; 
+    }32%{
+        content: "Larry |"; 
+    }34%{
+        content: "Larr|"; 
+    }36%{
+        content: "Lar|"; 
+    }38%{
+        content: "La|"; 
+    }40%{
+        content: "L|"; 
+    }41%{
+        content: "|"; 
+    }42%{
+        content: "De|"; 
+    }45%{
+        content: "Dev|"; 
+    }46%{
+        content: "Deve|"; 
+    }48%{
+        content: "Devel|"; 
+    }50%{
+        content: "Develo|"; 
+    }
+    51%{
+        content: "Develop|"; 
+    }52%{
+        content: "Develope|"; 
+    }54%{
+        content: "Developer|"; 
+    }
+    56%{
+        content: "Develope|"; 
+    }58%{
+        content: "Develop|"; 
+    }60%{
+        content: "Develo|"; 
+    }61%{
+        content: "Devel|"; 
+    }62%{
+        content: "Deve|"; 
+    }64%{
+        content: "Dev|"; 
+    }66%{
+        content: "De|"; 
+    }68%{
+        content: "D|"; 
+    }70%{
+        content: "|"; 
+    }71%{
+        content: "D|"; 
+    }72%{
+        content: "De|"; 
+    }74%{
+        content: "Des|"; 
+    }76%{
+        content: "Desi|"; 
+    }78%{
+        content: "Desig|"; 
+    }80%{
+        content: "Design|"; 
+    }82%{
+        content: "Designe|"; 
+    }86%{
+        content: "Designer|"; 
+    }88%{
+        content: "Designe|"; 
+    }90%{
+        content: "Design|"; 
+    }91%{
+        content: "Desig|"; 
+    }92%{
+        content: "Desi|"; 
+    }94%{
+        content: "Des|"; 
+    }96%{
+        content: "De|"; 
+    }98%{
+        content: "D|"; 
+    }100%{
+        content: "|"; 
+    }
+  
+}
+/*sm*/
+@media screen and (max-width:576px){
+   
+    .home p{
+        font-size: 30px;  
+    }
+    .about-img{
+        margin-bottom: 80px;
+        padding-left: 20px;
+    }
+    .about-img::before{
+        bottom: -6%;
+    }
+    .silder-sm
+    {
+        display: flex !important;
+        flex-direction: column;
+    }
+}
+/*md*/
+@media screen and (min-width:577px) and (max-width:768px){
+   
+    .home p{
+        font-size: 30px;  
+    }
+    .about-img{
+        margin-bottom: 100px;
+    }
+    .silder-sm
+    {
+        display: flex !important;
+        flex-direction: column;
+    }
+    
+
+}
+/*lg*/
+@media screen and (min-width:769px) and (max-width:992px){
+    .about-img{
+        margin-bottom: 100px;
+    }
+    .silder-md
+    {
+        display: flex !important;
+        flex-direction: column;
+    }
+    
+    
+}
+/*xl*/
+@media screen and (min-width:993px) and (max-width:1200px){
+    .silder-md
+    {
+        display: flex !important;
+        flex-direction: column;
+    }
+}
+/*xxl*/
+@media screen and (min-width:1201px){
+    .slider-lg{
+        display: flex !important;
+        flex-direction: column;
+    }
+}
